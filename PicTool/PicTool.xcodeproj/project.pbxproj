@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C83E65762116133500AE6380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E65752116133500AE6380 /* AppDelegate.m */; };
+		C83E65792116133500AE6380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E65782116133500AE6380 /* ViewController.m */; };
+		C83E657B2116133500AE6380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83E657A2116133500AE6380 /* Assets.xcassets */; };
+		C83E657E2116133500AE6380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83E657C2116133500AE6380 /* Main.storyboard */; };
+		C83E65812116133500AE6380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E65802116133500AE6380 /* main.m */; };
+		C83E658C2116133500AE6380 /* PicToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E658B2116133500AE6380 /* PicToolTests.m */; };
+		C83E65972116133500AE6380 /* PicToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C83E65962116133500AE6380 /* PicToolUITests.m */; };
+		C8E9446E2116EE640003805F /* 150623120004-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E944652116EE630003805F /* 150623120004-6.jpg */; };
+		C8E9446F2116EE640003805F /* 150623120004-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E944662116EE630003805F /* 150623120004-1.jpg */; };
+		C8E944702116EE640003805F /* 150623120004-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E944672116EE630003805F /* 150623120004-3.jpg */; };
+		C8E944712116EE640003805F /* 150623120004-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E944682116EE630003805F /* 150623120004-4.jpg */; };
+		C8E944722116EE640003805F /* 150623120004-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E944692116EE630003805F /* 150623120004-7.jpg */; };
+		C8E944732116EE640003805F /* 150623120004-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E9446A2116EE640003805F /* 150623120004-8.jpg */; };
+		C8E944742116EE640003805F /* 150623120004-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E9446B2116EE640003805F /* 150623120004-2.jpg */; };
+		C8E944752116EE640003805F /* 150623120004-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E9446C2116EE640003805F /* 150623120004-5.jpg */; };
+		C8E944762116EE640003805F /* 150623120004-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8E9446D2116EE640003805F /* 150623120004-9.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C83E65882116133500AE6380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83E65692116133500AE6380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83E65702116133500AE6380;
+			remoteInfo = PicTool;
+		};
+		C83E65932116133500AE6380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83E65692116133500AE6380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83E65702116133500AE6380;
+			remoteInfo = PicTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C83E65712116133500AE6380 /* PicTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83E65742116133500AE6380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C83E65752116133500AE6380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C83E65772116133500AE6380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C83E65782116133500AE6380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C83E657A2116133500AE6380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C83E657D2116133500AE6380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83E657F2116133500AE6380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83E65802116133500AE6380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C83E65822116133500AE6380 /* PicTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicTool.entitlements; sourceTree = "<group>"; };
+		C83E65872116133500AE6380 /* PicToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83E658B2116133500AE6380 /* PicToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicToolTests.m; sourceTree = "<group>"; };
+		C83E658D2116133500AE6380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83E65922116133500AE6380 /* PicToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83E65962116133500AE6380 /* PicToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicToolUITests.m; sourceTree = "<group>"; };
+		C83E65982116133500AE6380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E944652116EE630003805F /* 150623120004-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-6.jpg"; sourceTree = "<group>"; };
+		C8E944662116EE630003805F /* 150623120004-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-1.jpg"; sourceTree = "<group>"; };
+		C8E944672116EE630003805F /* 150623120004-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-3.jpg"; sourceTree = "<group>"; };
+		C8E944682116EE630003805F /* 150623120004-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-4.jpg"; sourceTree = "<group>"; };
+		C8E944692116EE630003805F /* 150623120004-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-7.jpg"; sourceTree = "<group>"; };
+		C8E9446A2116EE640003805F /* 150623120004-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-8.jpg"; sourceTree = "<group>"; };
+		C8E9446B2116EE640003805F /* 150623120004-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-2.jpg"; sourceTree = "<group>"; };
+		C8E9446C2116EE640003805F /* 150623120004-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-5.jpg"; sourceTree = "<group>"; };
+		C8E9446D2116EE640003805F /* 150623120004-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150623120004-9.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83E656E2116133500AE6380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E65842116133500AE6380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E658F2116133500AE6380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83E65682116133500AE6380 = {
+			isa = PBXGroup;
+			children = (
+				C83E65A421161A9C00AE6380 /* resource */,
+				C83E65732116133500AE6380 /* PicTool */,
+				C83E658A2116133500AE6380 /* PicToolTests */,
+				C83E65952116133500AE6380 /* PicToolUITests */,
+				C83E65722116133500AE6380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C83E65722116133500AE6380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83E65712116133500AE6380 /* PicTool.app */,
+				C83E65872116133500AE6380 /* PicToolTests.xctest */,
+				C83E65922116133500AE6380 /* PicToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83E65732116133500AE6380 /* PicTool */ = {
+			isa = PBXGroup;
+			children = (
+				C83E65742116133500AE6380 /* AppDelegate.h */,
+				C83E65752116133500AE6380 /* AppDelegate.m */,
+				C83E65772116133500AE6380 /* ViewController.h */,
+				C83E65782116133500AE6380 /* ViewController.m */,
+				C83E657A2116133500AE6380 /* Assets.xcassets */,
+				C83E657C2116133500AE6380 /* Main.storyboard */,
+				C83E657F2116133500AE6380 /* Info.plist */,
+				C83E65802116133500AE6380 /* main.m */,
+				C83E65822116133500AE6380 /* PicTool.entitlements */,
+			);
+			path = PicTool;
+			sourceTree = "<group>";
+		};
+		C83E658A2116133500AE6380 /* PicToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				C83E658B2116133500AE6380 /* PicToolTests.m */,
+				C83E658D2116133500AE6380 /* Info.plist */,
+			);
+			path = PicToolTests;
+			sourceTree = "<group>";
+		};
+		C83E65952116133500AE6380 /* PicToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C83E65962116133500AE6380 /* PicToolUITests.m */,
+				C83E65982116133500AE6380 /* Info.plist */,
+			);
+			path = PicToolUITests;
+			sourceTree = "<group>";
+		};
+		C83E65A421161A9C00AE6380 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C8E944662116EE630003805F /* 150623120004-1.jpg */,
+				C8E9446B2116EE640003805F /* 150623120004-2.jpg */,
+				C8E944672116EE630003805F /* 150623120004-3.jpg */,
+				C8E944682116EE630003805F /* 150623120004-4.jpg */,
+				C8E9446C2116EE640003805F /* 150623120004-5.jpg */,
+				C8E944652116EE630003805F /* 150623120004-6.jpg */,
+				C8E944692116EE630003805F /* 150623120004-7.jpg */,
+				C8E9446A2116EE640003805F /* 150623120004-8.jpg */,
+				C8E9446D2116EE640003805F /* 150623120004-9.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83E65702116133500AE6380 /* PicTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83E659B2116133500AE6380 /* Build configuration list for PBXNativeTarget "PicTool" */;
+			buildPhases = (
+				C83E656D2116133500AE6380 /* Sources */,
+				C83E656E2116133500AE6380 /* Frameworks */,
+				C83E656F2116133500AE6380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicTool;
+			productName = PicTool;
+			productReference = C83E65712116133500AE6380 /* PicTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C83E65862116133500AE6380 /* PicToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83E659E2116133500AE6380 /* Build configuration list for PBXNativeTarget "PicToolTests" */;
+			buildPhases = (
+				C83E65832116133500AE6380 /* Sources */,
+				C83E65842116133500AE6380 /* Frameworks */,
+				C83E65852116133500AE6380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C83E65892116133500AE6380 /* PBXTargetDependency */,
+			);
+			name = PicToolTests;
+			productName = PicToolTests;
+			productReference = C83E65872116133500AE6380 /* PicToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C83E65912116133500AE6380 /* PicToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83E65A12116133500AE6380 /* Build configuration list for PBXNativeTarget "PicToolUITests" */;
+			buildPhases = (
+				C83E658E2116133500AE6380 /* Sources */,
+				C83E658F2116133500AE6380 /* Frameworks */,
+				C83E65902116133500AE6380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C83E65942116133500AE6380 /* PBXTargetDependency */,
+			);
+			name = PicToolUITests;
+			productName = PicToolUITests;
+			productReference = C83E65922116133500AE6380 /* PicToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83E65692116133500AE6380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanghaifeng;
+				TargetAttributes = {
+					C83E65702116133500AE6380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C83E65862116133500AE6380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C83E65702116133500AE6380;
+					};
+					C83E65912116133500AE6380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C83E65702116133500AE6380;
+					};
+				};
+			};
+			buildConfigurationList = C83E656C2116133500AE6380 /* Build configuration list for PBXProject "PicTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83E65682116133500AE6380;
+			productRefGroup = C83E65722116133500AE6380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83E65702116133500AE6380 /* PicTool */,
+				C83E65862116133500AE6380 /* PicToolTests */,
+				C83E65912116133500AE6380 /* PicToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83E656F2116133500AE6380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E944712116EE640003805F /* 150623120004-4.jpg in Resources */,
+				C83E657B2116133500AE6380 /* Assets.xcassets in Resources */,
+				C8E9446E2116EE640003805F /* 150623120004-6.jpg in Resources */,
+				C8E944752116EE640003805F /* 150623120004-5.jpg in Resources */,
+				C83E657E2116133500AE6380 /* Main.storyboard in Resources */,
+				C8E944702116EE640003805F /* 150623120004-3.jpg in Resources */,
+				C8E944742116EE640003805F /* 150623120004-2.jpg in Resources */,
+				C8E944722116EE640003805F /* 150623120004-7.jpg in Resources */,
+				C8E944732116EE640003805F /* 150623120004-8.jpg in Resources */,
+				C8E9446F2116EE640003805F /* 150623120004-1.jpg in Resources */,
+				C8E944762116EE640003805F /* 150623120004-9.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E65852116133500AE6380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E65902116133500AE6380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83E656D2116133500AE6380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E65792116133500AE6380 /* ViewController.m in Sources */,
+				C83E65812116133500AE6380 /* main.m in Sources */,
+				C83E65762116133500AE6380 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E65832116133500AE6380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E658C2116133500AE6380 /* PicToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83E658E2116133500AE6380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E65972116133500AE6380 /* PicToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C83E65892116133500AE6380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83E65702116133500AE6380 /* PicTool */;
+			targetProxy = C83E65882116133500AE6380 /* PBXContainerItemProxy */;
+		};
+		C83E65942116133500AE6380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83E65702116133500AE6380 /* PicTool */;
+			targetProxy = C83E65932116133500AE6380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C83E657C2116133500AE6380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83E657D2116133500AE6380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C83E65992116133500AE6380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C83E659A2116133500AE6380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C83E659C2116133500AE6380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PicTool/PicTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C83E659D2116133500AE6380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PicTool/PicTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C83E659F2116133500AE6380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTool.app/Contents/MacOS/PicTool";
+			};
+			name = Debug;
+		};
+		C83E65A02116133500AE6380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicTool.app/Contents/MacOS/PicTool";
+			};
+			name = Release;
+		};
+		C83E65A22116133500AE6380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicTool;
+			};
+			name = Debug;
+		};
+		C83E65A32116133500AE6380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YANGHAIFENG.PicToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83E656C2116133500AE6380 /* Build configuration list for PBXProject "PicTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E65992116133500AE6380 /* Debug */,
+				C83E659A2116133500AE6380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83E659B2116133500AE6380 /* Build configuration list for PBXNativeTarget "PicTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E659C2116133500AE6380 /* Debug */,
+				C83E659D2116133500AE6380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83E659E2116133500AE6380 /* Build configuration list for PBXNativeTarget "PicToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E659F2116133500AE6380 /* Debug */,
+				C83E65A02116133500AE6380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83E65A12116133500AE6380 /* Build configuration list for PBXNativeTarget "PicToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83E65A22116133500AE6380 /* Debug */,
+				C83E65A32116133500AE6380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83E65692116133500AE6380 /* Project object */;
+}
